@@ -1,0 +1,23 @@
+CareBridge Phase 1 Marketplace
+
+Main folders:
+- app/
+- components/
+- public/
+
+Main pages:
+- Home
+- Categories
+- Groceries
+- Medicines
+- Medical Equipment
+- Rentals
+- Mobility & Rehabilitation
+- Daily Pooja Essentials
+- Festival Care Boxes
+- Services
+- Health & Wellness
+- Home Care
+- About, Contact, Help and FAQ
+
+Public prices, cart and checkout have been removed from Phase 1.

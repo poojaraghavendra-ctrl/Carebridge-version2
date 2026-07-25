@@ -1,0 +1,1 @@
+import SectionPage from "@/components/SectionPage";import { groceryGroups } from "@/components/marketplace-data";export default function Page(){return <SectionPage eyebrow="Daily essentials" title="Groceries" intro="Browse essential grocery categories for regular household needs and assisted monthly ordering." items={groceryGroups}/>}

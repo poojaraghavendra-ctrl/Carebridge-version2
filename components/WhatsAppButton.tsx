@@ -1,0 +1,2 @@
+import { MessageCircle } from "lucide-react";
+export default function WhatsAppButton(){return <a href="https://wa.me/918904328298?text=Hello%20CareBridge,%20I%20need%20help%20placing%20an%20order." target="_blank" rel="noreferrer" className="fixed bottom-5 right-5 z-50 flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-4 font-bold text-white shadow-2xl"><MessageCircle size={24}/><span className="hidden sm:inline">Order on WhatsApp</span></a>}

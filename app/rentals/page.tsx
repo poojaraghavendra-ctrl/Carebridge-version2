@@ -1,0 +1,1 @@
+import SectionPage from "@/components/SectionPage";import { rentalEquipment } from "@/components/marketplace-data";export default function Page(){return <SectionPage eyebrow="Medical rentals" title="Equipment for Rent" intro="Enquire about rental duration, delivery, setup and service support for home-care equipment." items={rentalEquipment}/>}

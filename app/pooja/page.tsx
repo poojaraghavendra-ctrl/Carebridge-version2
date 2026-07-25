@@ -1,0 +1,1 @@
+import SectionPage from "@/components/SectionPage";import { poojaGroups } from "@/components/marketplace-data";export default function Page(){return <SectionPage eyebrow="Tradition made convenient" title="Daily Pooja Essentials" intro="From lamps and wicks to complete daily pooja kits, arrange regular supplies for your home or loved ones." items={poojaGroups}/>}
