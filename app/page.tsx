@@ -27,12 +27,12 @@ export default function HomePage() {
             <h1 className="max-w-3xl text-4xl font-bold leading-tight md:text-6xl">
               Everything your family needs, all in one place
             </h1>
-
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-white/80">
-              Groceries, medicines, medical equipment, daily pooja essentials,
-              festival care boxes and personalised ordering assistance for
-              families and loved ones.
-            </p>
+<p className="mt-6 max-w-2xl text-lg leading-8 text-white/80">
+  Quality products sourced from trusted wholesale partners at
+  competitive prices. From groceries and medicines to medical
+  equipment and festival essentials, CareBridge makes caring for
+  your loved ones simple, affordable and reliable.
+</p>
 
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
