@@ -51,6 +51,21 @@ export default function HomePage() {
                 Get Ordering Help
               </Link>
             </div>
+            <div className="mt-8 grid gap-3 sm:grid-cols-2">
+  {[
+    "Competitive wholesale pricing",
+    "Trusted supplier network",
+    "Personal ordering assistance",
+    "Everything in one place",
+  ].map((item) => (
+    <div
+      key={item}
+      className="rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-sm font-semibold text-white backdrop-blur"
+    >
+      ✓ {item}
+    </div>
+  ))}
+</div>
           </div>
 
           <div className="rounded-3xl bg-white/10 p-6 backdrop-blur">
