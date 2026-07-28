@@ -21,7 +21,6 @@ import {
   Stethoscope,
   Truck,
   Users,
-  Wheelchair,
 } from "lucide-react";
 
 import PageShell from "@/components/PageShell";
@@ -49,12 +48,12 @@ const categories = [
     icon: Stethoscope,
   },
   {
-    name: "Equipment Rentals",
-    description:
-      "Hospital beds, oxygen concentrators, wheelchairs and patient-care rentals.",
-    href: "/rentals",
-    icon: Wheelchair,
-  },
+  name: "Equipment Rentals",
+  description:
+    "Hospital beds, oxygen concentrators, wheelchairs and patient-care rentals.",
+  href: "/rentals",
+  icon: PackageCheck,
+},
   {
     name: "Health & Wellness",
     description:
