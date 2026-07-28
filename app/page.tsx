@@ -81,6 +81,112 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <section className="bg-white py-16 md:py-20">
+  <div className="mx-auto max-w-7xl px-5 md:px-8">
+    <div className="text-center">
+      <p className="font-semibold uppercase tracking-[0.18em] text-[#b68d40]">
+        Why Choose CareBridge
+      </p>
+
+      <h2 className="mt-3 text-3xl font-bold text-[#173f35] md:text-4xl">
+        Better value, trusted quality and personal care
+      </h2>
+
+      <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-gray-600">
+        We work with trusted wholesale dealers, verified suppliers and
+        authorized distributors to bring families quality essentials at
+        competitive prices.
+      </p>
+    </div>
+
+    <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {[
+        {
+          icon: "₹",
+          title: "Competitive Wholesale Pricing",
+          text: "We source through trusted wholesale partners and pass better value on to our customers.",
+        },
+        {
+          icon: "✓",
+          title: "Trusted Quality",
+          text: "Products are sourced from reliable suppliers and authorized distributors wherever applicable.",
+        },
+        {
+          icon: "▣",
+          title: "Everything in One Place",
+          text: "Groceries, medicines, medical equipment, wellness products, pooja essentials and festival boxes.",
+        },
+        {
+          icon: "☎",
+          title: "Assisted Ordering",
+          text: "Customers can call or WhatsApp us and receive personal help placing their order.",
+        },
+        {
+          icon: "⌂",
+          title: "Delivery to Loved Ones",
+          text: "Arrange essentials for parents, relatives or family members even when you live far away.",
+        },
+        {
+          icon: "♥",
+          title: "Care Beyond Shopping",
+          text: "We focus on making everyday family care easier, more affordable and more dependable.",
+        },
+      ].map((item) => (
+        <article
+          key={item.title}
+          className="rounded-3xl border border-gray-200 bg-[#faf9f6] p-7 shadow-sm"
+        >
+          <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#f4ebdd] text-xl font-bold text-[#173f35]">
+            {item.icon}
+          </div>
+
+          <h3 className="mt-5 text-xl font-bold text-[#173f35]">
+            {item.title}
+          </h3>
+
+          <p className="mt-3 leading-7 text-gray-600">{item.text}</p>
+        </article>
+      ))}
+    </div>
+
+    <div className="mt-12 rounded-3xl bg-[#0b4938] p-8 text-white md:p-12">
+      <div className="grid items-center gap-8 lg:grid-cols-[1.4fr_1fr]">
+        <div>
+          <p className="font-semibold uppercase tracking-[0.18em] text-[#e2c98a]">
+            Our Promise
+          </p>
+
+          <h2 className="mt-3 text-3xl font-bold md:text-4xl">
+            Quality essentials at prices families can trust
+          </h2>
+
+          <p className="mt-5 max-w-3xl text-lg leading-8 text-white/80">
+            CareBridge combines wholesale sourcing, trusted suppliers, personal
+            ordering assistance and convenient delivery to give families
+            dependable value across everyday care needs.
+          </p>
+        </div>
+
+        <div className="grid gap-3">
+          {[
+            "Trusted wholesale sourcing",
+            "Competitive pricing",
+            "Verified suppliers",
+            "Personal ordering support",
+            "Convenient family delivery",
+          ].map((promise) => (
+            <div
+              key={promise}
+              className="rounded-xl bg-white/10 px-4 py-3 font-medium"
+            >
+              ✓ {promise}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section className="bg-[#faf9f6] py-20">
         <div className="mx-auto max-w-7xl px-5 md:px-8">
