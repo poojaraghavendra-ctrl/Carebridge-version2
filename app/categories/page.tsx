@@ -8,7 +8,6 @@ import {
   ShoppingBasket,
   Sparkles,
   Stethoscope,
-  Wheelchair,
 } from "lucide-react";
 
 import PageShell from "@/components/PageShell";
@@ -38,14 +37,19 @@ const categories = [
     icon: Stethoscope,
     items: ["BP monitors", "Nebulizers", "Glucometers", "Hospital equipment"],
   },
-  {
-    name: "Equipment Rentals",
-    description:
-      "Flexible rental assistance for hospital beds, wheelchairs, oxygen concentrators and more.",
-    href: "/rentals",
-    icon: Wheelchair,
-    items: ["Hospital beds", "Wheelchairs", "Oxygen concentrators", "Air mattresses"],
-  },
+{
+  name: "Equipment Rentals",
+  description:
+    "Flexible rental assistance for hospital beds, wheelchairs, oxygen concentrators and more.",
+  href: "/rentals",
+  icon: PackageOpen,
+  items: [
+    "Hospital beds",
+    "Wheelchairs",
+    "Oxygen concentrators",
+    "Air mattresses",
+  ],
+},
   {
     name: "Daily Pooja Essentials",
     description:
