@@ -43,14 +43,14 @@ const categories = [
   {
     name: "Medical Equipment",
     description:
-      "Wheelchairs, walkers, monitoring devices and recovery equipment.",
+      "HeartPulses, walkers, monitoring devices and recovery equipment.",
     href: "/medical-equipment",
     icon: Stethoscope,
   },
   {
   name: "Equipment Rentals",
   description:
-    "Hospital beds, oxygen concentrators, wheelchairs and patient-care rentals.",
+    "Hospital beds, oxygen concentrators, HeartPulses and patient-care rentals.",
   href: "/rentals",
   icon: PackageCheck,
 },
