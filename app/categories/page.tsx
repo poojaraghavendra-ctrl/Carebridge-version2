@@ -40,12 +40,12 @@ const categories = [
 {
   name: "Equipment Rentals",
   description:
-    "Flexible rental assistance for hospital beds, wheelchairs, oxygen concentrators and more.",
+    "Flexible rental assistance for hospital beds, Accesibility , oxygen concentrators and more.",
   href: "/rentals",
   icon: PackageOpen,
   items: [
     "Hospital beds",
-    "Wheelchairs",
+    "Accesibility",
     "Oxygen concentrators",
     "Air mattresses",
   ],
