@@ -52,7 +52,7 @@ const categories = [
     description:
       "Hospital beds, oxygen concentrators and patient-care rentals.",
     href: "/rentals",
-    icon: Wheelchair,
+    icon: Heartpulse,
   },
   {
     name: "Health & Wellness",
