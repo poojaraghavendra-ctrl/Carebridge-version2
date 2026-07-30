@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 
 import PageShell from "@/components/PageShell";
-import MedicalEquipmentCard from "@/components/MedicalEquipmentCard";
+import MedicalEquipmentCatalogue from "@/components/MedicalEquipmentCatalogue";
 import { medicalEquipmentProducts } from "@/data/medicalEquipmentProducts";
 
 const benefits = [
@@ -153,14 +153,10 @@ export default function MedicalEquipmentPage() {
           </div>
 
           {purchaseProducts.length > 0 ? (
-            <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {purchaseProducts.map((product) => (
-                <MedicalEquipmentCard
-                  key={product.id}
-                  product={product}
-                />
-              ))}
-            </div>
+            <MedicalEquipmentCatalogue
+              products={purchaseProducts}
+              catalogueType="purchase"
+            />
           ) : (
             <div className="mt-10 rounded-3xl border border-gray-200 bg-white p-8 text-center">
               <p className="font-semibold text-[#173f35]">
@@ -190,14 +186,10 @@ export default function MedicalEquipmentPage() {
           </div>
 
           {rentalProducts.length > 0 ? (
-            <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {rentalProducts.map((product) => (
-                <MedicalEquipmentCard
-                  key={product.id}
-                  product={product}
-                />
-              ))}
-            </div>
+            <MedicalEquipmentCatalogue
+              products={rentalProducts}
+              catalogueType="rental"
+            />
           ) : (
             <div className="mt-10 rounded-3xl border border-gray-200 bg-[#faf9f6] p-8 text-center">
               <p className="font-semibold text-[#173f35]">
