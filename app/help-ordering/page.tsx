@@ -50,7 +50,7 @@ const categories = [
   {
     name: "Equipment Rentals",
     description:
-      "Hospital beds, oxygen concentrators, wheelchairs and patient-care rentals.",
+      "Hospital beds, oxygen concentrators and patient-care rentals.",
     href: "/rentals",
     icon: Wheelchair,
   },
