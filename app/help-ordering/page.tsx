@@ -21,7 +21,6 @@ import {
   Stethoscope,
   Truck,
   Users,
-  Wheelchair,
 } from "lucide-react";
 
 import PageShell from "@/components/PageShell";
@@ -44,7 +43,7 @@ const categories = [
   {
     name: "Medical Equipment",
     description:
-      "Wheelchairs, walkers, monitoring devices and recovery equipment.",
+      "HeartPulse, walkers, monitoring devices and recovery equipment.",
     href: "/medical-equipment",
     icon: Stethoscope,
   },
